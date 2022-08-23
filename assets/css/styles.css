@@ -443,8 +443,6 @@ img {
   justify-content: center;
 }
 
-
-
 /*==================== SKILLS ====================*/
 .skills_container{
   row-gap: 0;
@@ -512,52 +510,56 @@ img {
   background-color: var(--first-color);
 }
 
+.skills_number{
+  color: var(--first-color);
+}
+
 .skills_html{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_css{
-  width: 80%;
+  width: 100%;
 }
 
 .skills_js{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_react{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_redux{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_node{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_express{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_postgres{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_sequelize{
-  width: 80%;
+  width: 100%;
 }
 
 .skills_sql{
-  width: 90%;
+  width: 100%;
 }
 
 .skills_figma{
-  width: 40%;
+  width: 100%;
 }
 
 .skills_canva{
-  width: 80%;
+  width: 100%;
 }
 
 .skills_close .skills_list{
