@@ -184,8 +184,8 @@ function SendMail() {
         project_id : document.getElementById('project_id').value,
         message : document.getElementById('message').value,
     }
-    emailjs.send("service_b89a1ne", "template_b6076fc", params).then(function(res){
-        alert("Message send succesfull!!  " + res.status);
+    emailjs.send("service_b89a1ne", "template_j0xj057", params).then(function(res){
+        alert("Mensaje enviado con exito!!  " + res.status);
     })
     form.reset();
 }
