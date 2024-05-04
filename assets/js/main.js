@@ -189,3 +189,9 @@ function SendMail() {
     })
     form.reset();
 }
+
+// Reset the form fields when the page loads
+window.onload = function() {
+    // Reset the form fields when the page loads
+    document.getElementById("form").reset();
+};
