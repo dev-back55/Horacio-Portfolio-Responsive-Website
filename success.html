@@ -10,12 +10,22 @@
     <title>Formulario Enviado</title>
     <style>
         body {
+            max-height: 100vh;
+            margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
+            text-rendering: optimizeSpeed;
         }
         .container {
-            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+            background-color: rgb(169, 249, 126);
         }
         h1 {
             color: #333;
@@ -41,7 +51,7 @@
 <body>
     <div class="container">
         <h1>¡Correo enviado con éxito!</h1>
-        <p>Gracias por ponerte en contacto con nosotros. Nos pondremos en contacto contigo lo antes posible.</p>
+        <p>Gracias por ponerte en contacto. Me pondré en contacto contigo lo antes posible.</p>
         <a href="index.html" class="button">Volver a la página de inicio</a>
     </div>
 </body>
