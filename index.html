@@ -861,9 +861,10 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact_form grid" id="form-contactme">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact_form grid" id="form-contactme">
                         <div class="contact_inputs grid">
                             <div class="contact_content">
+                                <input type="hidden" name="access_key" value="618a187e-835f-4aee-bcc9-370b81c50cad">
                                 <label for="" class="contact_label">Name</label>
                                 <input type="text" id="fullname" class="contact_input" autocomplete="off">
                             </div>
@@ -880,9 +881,9 @@
                             <label for="" class="contact_label">Message</label>
                             <textarea name="" id="message" cols="0" rows="7" class="contact_input"></textarea>
                         </div>
-
+                        <div class="h-captcha" data-captcha="true"></div>
                         <div>
-                            <button onClick="SendMail()" class="button button--flex">
+                            <button type="submit" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button_icon"></i>
                             </button>
@@ -940,8 +941,11 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+        <!--==================== EMAIL Web3Form Captcha ====================-->
+        <script src="https://web3forms.com/client/script.js" async defer></script>
 
-        <!--==================== EMAIL JS ====================-->
+        <!--==================== EMAIL JS in form button onclick="SendMail()" ===================-->
+
         <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
         </script>
